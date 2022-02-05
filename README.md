@@ -4,9 +4,6 @@ I recently rooted my Dreame L10 Pro (model `dreame.vacuum.p2029`). There was a b
 
 I don't own the copyright on these audio files - they are kept here for purely academic purposes.
 
-The script to generate your own soundfiles is purely for fun. Sheesh.
-
-
 ## Sound files and text
 
 I spent 20 minutes of my life transcribing these sound files, so be grateful you little rascals.
@@ -134,4 +131,4 @@ Don't Vacuumn Me also has some matching sound files at https://builder.dontvacuu
 
 For now you can do this manually by copying custom sound files (named according to the above table) to `/etc/audio/<your language>/` in Ogg Vorbis format on your Dreame L10 Pro.
 
-As soon as I have time I'll make a script that loops over the CSV and creates a sound pack. In fact why bother when the one at 
+As soon as I have time I'll make a script that loops over the CSV and creates a sound pack.
