@@ -26,7 +26,7 @@ Filename,Text
 26.ogg,Restoring to factory settings.
 27.ogg,The robot is updating. It will take about 5 minutes. Do not turn it off or start a cleaning task.
 28.ogg,Updated sucessfully.
-29.ogg,Couldn't update. Please try again.
+29.ogg,"Could not update. Please try again."
 30.ogg,Positioning. Please wait.
 31.ogg,Positioning failed and the map is not working. The robot will start a new cleanup.
 33.ogg,Please wipe the camera clean.
@@ -36,9 +36,9 @@ Filename,Text
 37.ogg,Please check and clean the right wheel.
 38.ogg,Please check and clean the left wheel.
 39.ogg,Please white the obstacle sensor clean.
-40.ogg,The robot is stuck. Please reposition it to start cleaning.
-41.ogg,The robot's wheel is suspended. Move to a new location and restart.
-42.ogg,Please check and clean the filter.
+40.ogg,"The robot is stuck. Please reposition it to start cleaning."
+41.ogg,"The robots wheels are suspended. Move to a new location and restart."
+42.ogg,"Please check and clean the filter."
 43.ogg,"Please check and tap the bumper, to see if it rebounds."
 44.ogg,There is an issue. Please check the user manual or contact after sales service.
 45.ogg,The robot is here!
@@ -47,7 +47,7 @@ Filename,Text
 48.ogg,Low battery. The robot is returning to the dock to charge.
 49.ogg,High-intensity magnetic field detected. Please move robot away and restart.
 50.ogg,Charging error. Please clean charging contacts.
-51.ogg,"Battery is overheating or overcooling. Please wait until the battery's temperature returns to normal, then continue to use."
+51.ogg,"Battery is overheating or overcooling. Please wait until the battery temperature returns to normal, then continue to use."
 52.ogg,Robot tilted. Please put it on a level ground to restart.
 53.ogg,Virtual no go zone detected. Please move robot away and restart.
 54.ogg,Positioning suceeded. Resuming cleaning.
