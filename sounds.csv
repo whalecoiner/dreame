@@ -67,7 +67,7 @@ ID,Filename,Text
 68,68.ogg,Main brush worn out. Please replace it timely.
 69,69.ogg,Cleanup path blocked. Please move robot to new position to restart.
 70,70.ogg,Please remove and clean mop pad.
-72,72.ogg,Please check wether laser sensor distance cover is jammed.
+72,72.ogg,Please check whether laser sensor distance cover is jammed.
 73,73.ogg,Edge sensor error. Please check and clean it.
 75,75.ogg,"Filter may not be dry, or may be blocked."
 77,77.ogg,Please start robot in non-carpet area.
@@ -79,7 +79,7 @@ ID,Filename,Text
 84,84.ogg,Mapping completed.
 85,85.ogg,Positioning succeeded. Proceeding with mapping.
 86,86.ogg,Positioning failed. Restarting mapping.
-87,87.ogg,"Low battery, Returning to the dock."
+87,87.ogg,Low battery. Returning to the dock.
 88,88.ogg,Enter remote control mode.
 89,89.ogg,Resume recharging.
 90,90.ogg,Proceed with cleaning task.
