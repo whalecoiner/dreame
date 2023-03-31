@@ -4,7 +4,7 @@ ID,Filename,Text
 2,2.ogg,Unable to connect to the wifi network. Please check the wifi password and try again.
 3,3.ogg,Unable to connect to the wifi network. Please check your local network and try again.
 4,4.ogg,The robot has left the network setup mode.
-5,5.ogg,Network connected sucessfully. 
+5,5.ogg,Network connected successfully. 
 6,6.ogg,Unable to connect to network. Please try again.
 7,7.ogg,The robot is starting the cleanup. 
 8,8.ogg,The robot is starting the partial cleanup.
@@ -25,7 +25,7 @@ ID,Filename,Text
 25,25.ogg,Low battery. The robot is unable to carry out the scheduled cleanup.
 26,26.ogg,Restoring to factory settings.
 27,27.ogg,The robot is updating. It will take about 5 minutes. Do not turn it off or start a cleaning task.
-28,28.ogg,Updated sucessfully.
+28,28.ogg,Updated successfully.
 29,29.ogg,"Could not update. Please try again."
 30,30.ogg,Positioning. Please wait.
 31,31.ogg,Positioning failed and the map is not working. The robot will start a new cleanup.
@@ -77,7 +77,7 @@ ID,Filename,Text
 82,82.ogg,Start mapping.
 83,83.ogg,Proceed with mapping.
 84,84.ogg,Mapping completed.
-85,85.ogg,Positioning suceeded. Proceeding with mapping.
+85,85.ogg,Positioning succeeded. Proceeding with mapping.
 86,86.ogg,Positioning failed. Restarting mapping.
 87,87.ogg,"Low battery, Returning to the dock."
 88,88.ogg,Enter remote control mode.
