@@ -12,7 +12,7 @@ I spent 20 minutes of my life transcribing these sound files, so be grateful you
 | -------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | 0.ogg    | Robot startup sound.                                                                                                                         |
 | 1.ogg    | Waiting for the network setup.                                                                                                               |
-| 2.ogg    | Unable to connect to the wifi network. Please check the wifi password and try again                                                          |
+| 2.ogg    | Unable to connect to the wifi network. Please check the wifi password and try again.                                                          |
 | 3.ogg    | Unable to connect to the wifi network. Please check your local network and try again.                                                        |
 | 4.ogg    | The robot has left the network setup mode.                                                                                                   |
 | 5.ogg    | Network connected sucessfully.                                                                                                               |
