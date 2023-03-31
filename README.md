@@ -125,7 +125,7 @@ As well as living on the Dreame L10 Pro the sound files are also found at https:
 
 The English tar file content matchs up with the filename table above but with some extra sound files, which I assume are for a different model or a later official firmware release.
 
-Don't Vacuumn Me also has some matching sound files at https://builder.dontvacuum.me/pkg/voice/dreame/mc1808/EN.tar.gz. This must be for an older model as the audio is performed by a different attress and is of frankly terrible quality.
+Don't Vacuumn Me also has some matching sound files at https://builder.dontvacuum.me/pkg/voice/dreame/mc1808/EN.tar.gz. This must be for an older model as the audio is performed by a different actress and is of frankly terrible quality.
 
 ## Generate your own sound files
 
