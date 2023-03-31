@@ -71,7 +71,7 @@ ID,Filename,Text
 73,73.ogg,Edge sensor error. Please check and clean it.
 75,75.ogg,"Filter may not be dry, or may be blocked."
 77,77.ogg,Please start robot in non-carpet area.
-78,78.ogg,Please clean 3D obstacle avoicdance sensor.
+78,78.ogg,Please clean 3D obstacle avoidance sensor.
 79,79.ogg,3D obstacle avoidance sensor error.  Please restart robot or contact customer service.
 81,81.ogg,Ultrasonic sensor error. Please restart robot or contact customer service.
 82,82.ogg,Start mapping.
@@ -92,7 +92,7 @@ ID,Filename,Text
 97,97.ogg,The dust collection bag is not installed. Please install it before the root carries on working.
 98,98.ogg,The dust collection bag is full. Please empty it.
 99,99.ogg,The upper cover of charging and dust collection compartment is not closed. Please close the upper cover before the robot carries on working.
-100,100.ogg,The airduct of charging and dust collection compartment is blocked. Please have a check.
+100,100.ogg,The air duct of the charging and dust collection compartment is blocked. Please check.
 116,116.ogg,Child lock on. Buttons locked.
 117,117.ogg,Child lock off. Buttons unlocked.
 118,118.ogg,Buttons locked. Press and hold the dock button to unlock.
