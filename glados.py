@@ -43,15 +43,17 @@ with open(CSV_SOURCE, 'r') as csvfile:
     audio = AudioSegment.from_wav(input_file)
     audio.export(output_file, format="ogg")
     os.remove(input_file)
+    
+    os.chown(output_file, 1000, 1000)
     files.append(output_file)
     tar.add(output_file, os.path.basename(output_file))
   tar.close()
 
 with open(VOICEPACK, "rb") as f:
-    file_hash = hashlib.md5()
-    while chunk := f.read(8192):
-        file_hash.update(chunk)
+  file_hash = hashlib.md5()
+  while chunk := f.read(8192):
+      file_hash.update(chunk)
 
 print(VOICEPACK_NAME + " md5 hash: " + file_hash.hexdigest())
 with open(os.path.join(VOICEPACK_DIR, "voice_pack.md5.txt"), 'w') as f:
-    f.write(file_hash.hexdigest())   
+  f.write(file_hash.hexdigest()) 
