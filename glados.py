@@ -9,6 +9,7 @@ with open("./sounds.csv", "wb") as f:
   f.write(csv_get.content)
 
 # Glados
+os.mkdir("audio/glados")
 with open('sounds.csv', 'r') as csvfile:
   reader = csv.reader(csvfile, quotechar='"')
   next(reader, None) # Skip CSV header
