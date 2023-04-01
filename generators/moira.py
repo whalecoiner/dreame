@@ -3,8 +3,8 @@
 import csv
 import os
 
-input_file = './sounds.csv'
-output_directory = './output'
+input_file = '../sounds.csv'
+output_directory = '../audio/moira'
 
 try:
     filereader = csv.reader(open(input_file), delimiter=",")

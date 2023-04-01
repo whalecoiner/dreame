@@ -2,16 +2,24 @@ import requests
 import csv
 from pydub import AudioSegment
 import os
-from subprocess import run
+import tarfile
 
-audio_dir = "audio/"
+audio_dir = "../audio/"
+voicepack_dir = "../voicepacks/"
+
+if not os.path.exists(audio_dir):
+  os.mkdir(audio_dir)
+
+if not os.path.exists(voicepack_dir):
+  os.mkdir(voicepack_dir)
 
 # Glados
 files = []
 output_dir = os.path.join(audio_dir, "glados")
+print(output_dir)
 if not os.path.exists(output_dir):
   os.mkdir(output_dir)
-with open('./sounds.csv', 'r') as csvfile:
+with open('../sounds.csv', 'r') as csvfile:
   reader = csv.reader(csvfile, quotechar='"')
   next(reader, None) # Skip CSV header
   for row in reader:
@@ -26,8 +34,9 @@ with open('./sounds.csv', 'r') as csvfile:
     audio = AudioSegment.from_wav(input_file)
     audio.export(output_file, format="ogg")
     os.remove(input_file) 
-    files.append(output_file)
+    files.append(os.path.abspath(output_file))
 
-run([
-    "tar", "-c", "-f", "./glados_voice_pack.tar.gz", *files
-], cwd="output")
+tar = tarfile.open("../voicepacks/glados_voice_pack.tar.gz", "w:gz")
+for file in files:
+  tar.add(file)
+tar.close()
