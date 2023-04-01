@@ -43,7 +43,7 @@ with open(CSV_SOURCE, 'r') as csvfile:
     audio = AudioSegment.from_wav(input_file)
     audio.export(output_file, format="ogg")
     os.remove(input_file)
-    
+
     os.chown(output_file, 1000, 1000)
     files.append(output_file)
     tar.add(output_file, os.path.basename(output_file))
