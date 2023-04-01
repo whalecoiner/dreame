@@ -36,7 +36,7 @@ with open('../sounds.csv', 'r') as csvfile:
     os.remove(input_file) 
     files.append(os.path.abspath(output_file))
 
-tar = tarfile.open("../voicepacks/glados_voice_pack.tar.gz", "w:gz")
+tar = tarfile.open(os.path.join(voicepack_dir, "glados_voice_pack.tar.gz"), "w:gz")
 for file in files:
   tar.add(file)
 tar.close()
