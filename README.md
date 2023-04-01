@@ -2,7 +2,7 @@
 
 I recently rooted my Dreame L10 Pro (model `dreame.vacuum.p2029`). There was a bunch of audio files in there that I wanted to save and document.
 
-I don't own the copyright on these audio files - they are kept here for purely academic purposes.
+I don't own the copyright on the original audio files - they are kept here for purely academic and research purposes.
 
 ## Sound files and text
 
@@ -129,6 +129,10 @@ Don't Vacuumn Me also has some matching sound files at https://builder.dontvacuu
 
 ## Generate your own sound files
 
-For now you can do this manually by copying custom sound files (named according to the above table) to `/etc/audio/<your language>/` in Ogg Vorbis format on your Dreame L10 Pro.
+The Drame models seem to allow unsigned files to be uploaded. https://dontvacuum.me/robotinfo/detail_dreame.vacuum.p2029_0.html
+
+For now you can do this manually by copying custom sound files (named according to the above table) to `/data/personalized_voice/<your language>/` in Ogg Vorbis format on your Dreame L10 Pro.
+
+
 
 As soon as I have time I'll make a script that loops over the CSV and creates a sound pack.

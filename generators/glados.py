@@ -33,7 +33,7 @@ with open('../sounds.csv', 'r') as csvfile:
       f.write(resp_get.content)
     audio = AudioSegment.from_wav(input_file)
     audio.export(output_file, format="ogg")
-    os.remove(input_file) 
+    # os.remove(input_file) 
     files.append(os.path.abspath(output_file))
 
 tar = tarfile.open(os.path.join(voicepack_dir, "glados_voice_pack.tar.gz"), "w:gz")
